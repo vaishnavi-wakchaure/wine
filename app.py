@@ -33,4 +33,4 @@ def predict_wine_quality():
         return "<h1 style='color:green'>Good Quality</h1>"
     
   
-app.run(debug=True,port=5001)
+app.run(host="0.0.0.0",port=8080)
